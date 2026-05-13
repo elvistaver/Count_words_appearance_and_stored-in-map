@@ -31,5 +31,4 @@ func main(){
 
 		fmt.Printf("%s:%d\n",word, count)
 	}
-	//fmt.Println(result)
 }
