@@ -1,4 +1,4 @@
-# Count words
+# Count words Appearance
 ## The program count the number of times a word appears in a string and print out the word and how many times it appear.
 ## The logic behind printing the word and number of times in this program is base on storing it in a map, which the function takes a string and returns a map which the key is a string and the value is an int.
 
