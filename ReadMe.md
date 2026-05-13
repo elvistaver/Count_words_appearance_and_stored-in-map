@@ -1,0 +1,6 @@
+# Count words
+## The program count the number of times a word appears in a string and print out the word and how many times it appear.
+## The logic behind printing the word and number of times in this program is base on storing it in a map, which the function takes a string and returns a map which the key is a string and the value is an int.
+
+## In the Program i first split the string using (strings.Fields method/built in function) to have a slice of strings and not a single strings so to be able to check each word and know how many times a word appear in the string, then it loop through the slice to check each word, then to make it case insensitive, in the loop, the word is been made to be lowercase and then to remove punctuations that join with the word a (strings.TrimFunc method/buit-in function) this function takes in a string and a func that takes in a rune and return a bool as argument, where a unicode.IsPunct built in function is been used to check for punction and trim it from the word.
+## The main function now write a string and call it in  the countword function of the program and then used a loop to print the key and value of the map
